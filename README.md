@@ -7,6 +7,8 @@ Topic
       https://developer.salesforce.com/docs/atlas.en-us.232.0.lightning.meta/lightning/components_using_flow_inputs_set.htm#:~:text=When%20you%20embed%20a%20flow,list%20to%20the%20startFlow%20method.
       https://salesforce.stackexchange.com/questions/269676/capturing-event-from-lwc-in-aura-component
       
+      Call from LWC child component :  this.dispatchEvent( new CustomEvent( 'dssclick', { detail: { value: actionLabel }} ));
+      
       
 3. Salesforce Azure Integration
 4. LWC Modal
