@@ -5,7 +5,7 @@
     <aura:attribute name="account" type="Account"/>
     <aura:attribute name="selected_reorder_reason" type="String"/>
     <!--     <aura:handler name="init" value="{!this}" action="{!c.init}" />  -->
-    <c:policyActions name="PolicyActions" ondssclick="{!c.handleClick}" recordId="{!v.recordId}" />
+    <c:policyActions name="PolicyActions" onbuttonClick="{!c.handleClick}" recordId="{!v.recordId}" />
     <aura:if isTrue="{!v.isOpen}">
         <div role="dialog" tabindex="-1" aria-labelledby="header43" aura:id="Modalbox" class="slds-modal">
             <div class="slds-modal__container">
